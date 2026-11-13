@@ -2,7 +2,11 @@ import { useEffect, type ReactNode } from 'react';
 import { Link, Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 import { ArrowRight, ArrowUpRight, Download, ExternalLink, Mail } from 'lucide-react';
 
-const cvUrl = '/documents/erika-oh-cv.pdf';
+const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+const cvUrl = assetUrl('documents/erika-oh-cv.pdf');
+const featuredPaperUrl = assetUrl('documents/featured-study.pdf');
+const profileImageUrl = assetUrl('images/erika-oh-profile.png');
+const frameworkFigureUrl = assetUrl('images/hair-framework.png');
 const scholarUrl = 'https://scholar.google.com/citations?user=kZAz0c8AAAAJ&hl=en&oi=ao';
 const doiFeatured = 'https://doi.org/10.1080/10447318.2026.2648799';
 
@@ -78,7 +82,7 @@ function Home() {
         </div>
       </div>
       <div className="portrait-wrap">
-        <img className="portrait" src="/images/erika-oh-profile.png" alt="Professional portrait of Yoo Jung (Erika) Oh" data-testid="img-profile" />
+        <img className="portrait" src={profileImageUrl} alt="Professional portrait of Yoo Jung (Erika) Oh" data-testid="img-profile" />
         <p className="portrait-caption">Scholarship at the intersection of communication and technology</p>
       </div>
     </section>
@@ -133,15 +137,15 @@ function Research() {
       </div>
       <figure className="figure-frame" id="featured-framework">
         <div className="figure-scroll" role="region" aria-label="Scrollable research framework figure" tabIndex={0}>
-          <img src="/images/hair-framework.png" alt="Original Figure 1 framework diagram. User, message, and chatbot characteristics connect to relational perceptions and behaviors, then to socially influenced perceptions and behaviors." />
+          <img src={frameworkFigureUrl} alt="Original Figure 1 framework diagram. User, message, and chatbot characteristics connect to relational perceptions and behaviors, then to socially influenced perceptions and behaviors." />
         </div>
         <figcaption>
           <p className="figure-caption">Figure 1. Human–AI relationship framework of social influence.</p>
           <p className="figure-description">In plain language, user, chatbot, and message characteristics can shape relational perceptions and behaviors, which connect to socially influenced perceptions and behaviors.</p>
-          <p className="figure-scroll-note">On a narrow screen, scroll the figure horizontally or <a href="/images/hair-framework.png" target="_blank" rel="noopener noreferrer">open it full size</a> to inspect the details.</p>
+          <p className="figure-scroll-note">On a narrow screen, scroll the figure horizontally or <a href={frameworkFigureUrl} target="_blank" rel="noopener noreferrer">open it full size</a> to inspect the details.</p>
         </figcaption>
       </figure>
-      <p style={{ marginTop: 22 }}><SafeExternal href={doiFeatured} className="button-primary">Read the publication <ExternalLink size={14} aria-hidden="true" /></SafeExternal></p>
+      <p style={{ marginTop: 22 }}><a href={featuredPaperUrl} target="_blank" rel="noopener noreferrer" className="button-primary">Read the publication <ExternalLink size={14} aria-hidden="true" /></a></p>
     </section>
     <section className="content-section" aria-labelledby="publications-title">
       <p className="eyebrow">Selected publications</p>
