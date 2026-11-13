@@ -116,7 +116,7 @@ function Pub({ citation, doi }: Publication) {
 
 function Research() {
   return <Shell>
-    <PageMeta title="Research" description="Research by Yoo Jung (Erika) Oh on human–AI communication, relational chatbots, persuasion, health communication, and social influence." />
+    <PageMeta title="Research" description="Research by Yoo Jung (Erika) Oh on human–AI communication, relational chatbots, persuasion, health communication, and social influence!" />
     <section className="research-intro">
       <p className="page-kicker">Research</p>
       <h1 className="page-heading">People, relationships<br />& intelligent systems.</h1>
