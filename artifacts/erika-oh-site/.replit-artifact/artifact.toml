@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Yoo Jung (Erika) Oh"
+description = "A professional academic website for Yoo Jung (Erika) Oh, featuring her biography, research program, selected publications, CV, and contact information."
+version = "1.0.0"
+id = "artifacts/erika-oh-site"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23399
+
+[services.development]
+run = "pnpm --filter @workspace/erika-oh-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/erika-oh-site", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/erika-oh-site/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23399"
+BASE_PATH = "/"

@@ -1,0 +1,101 @@
+Project request
+Build a professional, responsive, multi-page academic personal website for me using the materials I uploaded to this Replit project.
+My information
+Name: Yoo Jung (Erika) Oh
+Current position and institution: Assistant Professor in the Department of Communication at Michigan State University
+Website structure
+Create a multi-page website with separate pages for:
+1. About
+2. Research
+3. CV
+4. Contact
+Additional pages: None for the first version
+Use the About page as the main homepage.
+Include a consistent navigation menu on every page. The website name or logo in the navigation bar should return visitors to the About page.
+About page
+Use my uploaded profile image as the main professional photograph.
+Use about-information.docx to create the page content. The page should include:
+• My name and current position
+• My institutional affiliation
+• A short professional biography
+• My primary research areas
+• A concise introduction to my research program
+• Links to my professional profiles
+• A button that directs visitors to the Research page
+• A button to download my CV
+Present my research interests in an attractive, easy-to-scan format. My main research areas include human-AI communication, relational AI, conversational agents and chatbots, health communication, persuasion, and interpersonal influence.
+Research page
+Create a rich Research page rather than displaying only a short list of publications.
+Begin with a brief overview explaining that my research examines how people communicate with, relate to, and are influenced by artificial intelligence. Organize my research into clear themes based on the information in my CV and About document.
+Create a prominent Featured Study section using featured-study.pdf.
+The featured study is The Relational Route to AI Persuasion. Present it as an accessible research story rather than simply reproducing the paper abstract.
+Before writing the Featured Study section, read featured-study.pdf and extract:
+• The study title
+• The research purpose or central question
+• The study design, method, and sample
+• The major findings
+• Why the study matters
+Use only information supported by the uploaded paper. Do not invent or change findings, statistics, sample sizes, methods, or citations. If anything is unclear, use a clearly labeled placeholder or ask me before adding it.
+The Featured Study section should include:
+• Study title
+• Brief overview
+• Central research question
+• Why the topic matters
+• Study design and participants
+• Major findings
+• Theoretical and practical implications
+• A short takeaway for a general academic audience
+• A link to the paper or publication, if available
+Use featured-figure.png in this section. Display the correct original caption beneath it and provide a short, plain-language explanation of what the figure shows.
+Do not alter the figure or invent a new caption. If the correct caption is not clear from the uploaded materials, ask me. Make sure the figure remains readable on desktop and mobile screens.
+Below the Featured Study section, create a Selected Publications section using information from my CV. Organize publications by topic or research area when appropriate. Do not limit the page to only three publications if the CV provides additional relevant work.
+Only include publication information found in my uploaded materials. Do not invent titles, authors, journal names, dates, findings, statistics, or links.
+After building the Research page, show me a short verification list containing the study title, method and sample, key findings, and figure caption so I can compare them with the original paper.
+CV page
+Use cv.pdf.
+Create:
+• A short introduction
+• An embedded CV viewer if it works reliably
+• A clearly visible Download CV button
+• A backup link that opens the PDF in a new browser tab
+Do not manually rewrite the entire CV on this page.
+Contact page
+Use the contact information and professional links provided in about-information.docx.
+Include:
+• Institutional email address
+• Department and university affiliation
+• Google Scholar
+• ORCID
+• LinkedIn
+• ResearchGate, lab website, or other professional link, if provided
+Make email addresses and professional links clickable.
+Do not create a working contact form that requires a server or database. A simple email button is sufficient for this first version.
+Design instructions
+Use a clean, professional academic design inspired by the professional academic visual tone of Michigan State University.
+My preferred colors are: deep green (#18453B), white or warm off-white, charcoal or dark gray text, and subtle light-green or neutral accents
+My design reference is: Michigan State University's visual tone
+The website should feel professional, modern, scholarly, welcoming, accessible, and research-focused.
+Use the design reference for general inspiration, but do not copy another website exactly or imply that the website is an official university website.
+Use:
+• Generous white space
+• Clear page headings
+• Readable typography
+• Subtle section dividers
+• Professional cards or panels where appropriate
+• Large, readable research figures
+• Minimal and purposeful visual effects
+Avoid excessive animations, decorative graphics, gradients, or a corporate marketing style.
+Technical and usability requirements
+• Create only the frontend for this first version.
+• Do not create an admin login, backend, database, or API integration.
+• Use consistent navigation and styling across every page.
+• Make the website responsive on desktop, tablet, and mobile screens.
+• Use accessible color contrast and readable font sizes.
+• Add descriptive alternative text to all images.
+• Make all email addresses and external links clickable.
+• Make sure the CV download button and navigation links work.
+• Preserve all uploaded source files in the project.
+• Use the uploaded materials as the authoritative sources.
+• Do not invent or change degrees, positions, publications, research findings, statistics, citations, professional links, or biographical information.
+• If important information is missing or unclear, use a clearly labeled placeholder or ask me for clarification.
+• Run the website and show me the completed first version in Replit Preview.
